@@ -41,7 +41,7 @@ def move_player(player):
 
 def play_game():
     print("🎲 Welcome to Snakes and Ladders 🎲")
-    print("----------------------------------")
+    print("------------------------------------")
 
     while True:
         for player in player_positions:
