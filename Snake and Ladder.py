@@ -22,7 +22,7 @@ def move_player(player):
     if pos > 100:
         print(f"{player} needs an exact roll to finish!")
         return
-        
+
     if pos in snakes:
         print(f"Oh no! {player} got bitten by a snake 🐍 from {pos} to {snakes[pos]}")
         pos = snakes[pos]
