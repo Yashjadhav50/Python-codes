@@ -7,6 +7,7 @@ snakes = {
 ladders = {
     6: 25, 11: 40, 60: 85, 46: 90, 17: 69
 }
+
 # Player positions
 player_positions = {"Player 1": 0, "Player 2": 0}
 
