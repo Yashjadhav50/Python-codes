@@ -7,7 +7,6 @@ snakes = {
 ladders = {
     6: 25, 11: 40, 60: 85, 46: 90, 17: 69
 }
-
 # Player positions
 player_positions = {"Player 1": 0, "Player 2": 0}
 
@@ -22,7 +21,7 @@ def move_player(player):
     if pos > 100:
         print(f"{player} needs an exact roll to finish!")
         return
-        
+
     if pos in snakes:
         print(f"Oh no! {player} got bitten by a snake 🐍 from {pos} to {snakes[pos]}")
         pos = snakes[pos]
