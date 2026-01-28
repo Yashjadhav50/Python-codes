@@ -2,7 +2,7 @@ import random
 
 # Define snakes and ladders
 snakes = {
-    
+
     99: 54, 70: 55, 52: 42, 25: 2, 95: 72
 }
 ladders = {
